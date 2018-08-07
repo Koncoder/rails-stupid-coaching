@@ -2,7 +2,7 @@
 <p>Find me in app/views/questions/ask.html.erb</p> -->
 
 <h3 style="text-align: center">What do you want to say to the coach?</h3>
-<form action="answer" method="post" style="text-align: center">
+<form action="answer" method="get" style="text-align: center">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
   <input name="question" type="text">
   <input type="submit">
